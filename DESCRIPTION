@@ -1,0 +1,17 @@
+Package: cmap
+Title: Provides colours from 'matplotlib' the Python package
+Version: 0.0.1
+Authors@R: 
+    person("Michael D.", "Sumner", , "mdsumner@gmail.com", role = c("aut", "cre"))
+Description: The names and functionality of palette generators from matplotlib. 
+License: MIT + file LICENSE
+Encoding: UTF-8
+Language: es
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Imports: 
+    grDevices,
+    reticulate
+Depends: 
+    R (>= 2.10)
+LazyData: true
