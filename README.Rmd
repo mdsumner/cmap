@@ -18,6 +18,7 @@ knitr::opts_chunk$set(
 # cmap
 
 <!-- badges: start -->
+[![R-CMD-check](https://github.com/mdsumner/cmap/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/mdsumner/cmap/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 The goal of cmap is to provide colours from matplotlib. 
@@ -46,6 +47,14 @@ image(volcano, col = cm_pal(nm <- sample(cm_names(), 1))(64), main = nm)
 
 ```
 
+
+You can also use the cm object itself, but we haven't thought about that much yet. 
+
+
+```{r cm-object}
+cmap:::cm$brg(seq(0, 1,length.out = 5))
+
+```
 
 ## Code of Conduct
   
