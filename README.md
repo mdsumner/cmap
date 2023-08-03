@@ -15,7 +15,7 @@ The goal of cmap is to provide colours from matplotlib.
 You can install the development version of cmap like so:
 
 ``` r
-pak::pkg_install(file.path("hypertidy", "cmap"))
+pak::pkg_install(file.path("mdsumner", "cmap"))
 ```
 
 ## Example
